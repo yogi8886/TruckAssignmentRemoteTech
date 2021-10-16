@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8CA4A2271B127400D26120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4A1271B127400D26120 /* AppDelegate.swift */; };
+		EC8CA4A4271B127400D26120 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4A3271B127400D26120 /* SceneDelegate.swift */; };
+		EC8CA4A6271B127400D26120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4A5271B127400D26120 /* ViewController.swift */; };
+		EC8CA4A9271B127400D26120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8CA4A7271B127400D26120 /* Main.storyboard */; };
+		EC8CA4AB271B128200D26120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8CA4AA271B128200D26120 /* Assets.xcassets */; };
+		EC8CA4AE271B128200D26120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8CA4AC271B128200D26120 /* LaunchScreen.storyboard */; };
+		EC8CA4B9271B128300D26120 /* TruckAssignmentRemoteTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4B8271B128300D26120 /* TruckAssignmentRemoteTechTests.swift */; };
+		EC8CA4C4271B128300D26120 /* TruckAssignmentRemoteTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4C3271B128300D26120 /* TruckAssignmentRemoteTechUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8CA4B5271B128300D26120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8CA496271B127400D26120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8CA49D271B127400D26120;
+			remoteInfo = TruckAssignmentRemoteTech;
+		};
+		EC8CA4C0271B128300D26120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8CA496271B127400D26120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8CA49D271B127400D26120;
+			remoteInfo = TruckAssignmentRemoteTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8CA49E271B127400D26120 /* TruckAssignmentRemoteTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckAssignmentRemoteTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8CA4A1271B127400D26120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC8CA4A3271B127400D26120 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC8CA4A5271B127400D26120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC8CA4A8271B127400D26120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8CA4AA271B128200D26120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8CA4AD271B128200D26120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC8CA4AF271B128200D26120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8CA4B4271B128300D26120 /* TruckAssignmentRemoteTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckAssignmentRemoteTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8CA4B8271B128300D26120 /* TruckAssignmentRemoteTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckAssignmentRemoteTechTests.swift; sourceTree = "<group>"; };
+		EC8CA4BA271B128300D26120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8CA4BF271B128300D26120 /* TruckAssignmentRemoteTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckAssignmentRemoteTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8CA4C3271B128300D26120 /* TruckAssignmentRemoteTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckAssignmentRemoteTechUITests.swift; sourceTree = "<group>"; };
+		EC8CA4C5271B128300D26120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8CA49B271B127400D26120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CA4B1271B128300D26120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CA4BC271B128300D26120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8CA495271B127400D26120 = {
+			isa = PBXGroup;
+			children = (
+				EC8CA4A0271B127400D26120 /* TruckAssignmentRemoteTech */,
+				EC8CA4B7271B128300D26120 /* TruckAssignmentRemoteTechTests */,
+				EC8CA4C2271B128300D26120 /* TruckAssignmentRemoteTechUITests */,
+				EC8CA49F271B127400D26120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8CA49F271B127400D26120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CA49E271B127400D26120 /* TruckAssignmentRemoteTech.app */,
+				EC8CA4B4271B128300D26120 /* TruckAssignmentRemoteTechTests.xctest */,
+				EC8CA4BF271B128300D26120 /* TruckAssignmentRemoteTechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8CA4A0271B127400D26120 /* TruckAssignmentRemoteTech */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CA4A1271B127400D26120 /* AppDelegate.swift */,
+				EC8CA4A3271B127400D26120 /* SceneDelegate.swift */,
+				EC8CA4A5271B127400D26120 /* ViewController.swift */,
+				EC8CA4A7271B127400D26120 /* Main.storyboard */,
+				EC8CA4AA271B128200D26120 /* Assets.xcassets */,
+				EC8CA4AC271B128200D26120 /* LaunchScreen.storyboard */,
+				EC8CA4AF271B128200D26120 /* Info.plist */,
+			);
+			path = TruckAssignmentRemoteTech;
+			sourceTree = "<group>";
+		};
+		EC8CA4B7271B128300D26120 /* TruckAssignmentRemoteTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CA4B8271B128300D26120 /* TruckAssignmentRemoteTechTests.swift */,
+				EC8CA4BA271B128300D26120 /* Info.plist */,
+			);
+			path = TruckAssignmentRemoteTechTests;
+			sourceTree = "<group>";
+		};
+		EC8CA4C2271B128300D26120 /* TruckAssignmentRemoteTechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CA4C3271B128300D26120 /* TruckAssignmentRemoteTechUITests.swift */,
+				EC8CA4C5271B128300D26120 /* Info.plist */,
+			);
+			path = TruckAssignmentRemoteTechUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8CA49D271B127400D26120 /* TruckAssignmentRemoteTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8CA4C8271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTech" */;
+			buildPhases = (
+				EC8CA49A271B127400D26120 /* Sources */,
+				EC8CA49B271B127400D26120 /* Frameworks */,
+				EC8CA49C271B127400D26120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruckAssignmentRemoteTech;
+			productName = TruckAssignmentRemoteTech;
+			productReference = EC8CA49E271B127400D26120 /* TruckAssignmentRemoteTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8CA4B3271B128300D26120 /* TruckAssignmentRemoteTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8CA4CB271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTechTests" */;
+			buildPhases = (
+				EC8CA4B0271B128300D26120 /* Sources */,
+				EC8CA4B1271B128300D26120 /* Frameworks */,
+				EC8CA4B2271B128300D26120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8CA4B6271B128300D26120 /* PBXTargetDependency */,
+			);
+			name = TruckAssignmentRemoteTechTests;
+			productName = TruckAssignmentRemoteTechTests;
+			productReference = EC8CA4B4271B128300D26120 /* TruckAssignmentRemoteTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC8CA4BE271B128300D26120 /* TruckAssignmentRemoteTechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8CA4CE271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTechUITests" */;
+			buildPhases = (
+				EC8CA4BB271B128300D26120 /* Sources */,
+				EC8CA4BC271B128300D26120 /* Frameworks */,
+				EC8CA4BD271B128300D26120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8CA4C1271B128300D26120 /* PBXTargetDependency */,
+			);
+			name = TruckAssignmentRemoteTechUITests;
+			productName = TruckAssignmentRemoteTechUITests;
+			productReference = EC8CA4BF271B128300D26120 /* TruckAssignmentRemoteTechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8CA496271B127400D26120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EC8CA49D271B127400D26120 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EC8CA4B3271B128300D26120 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EC8CA49D271B127400D26120;
+					};
+					EC8CA4BE271B128300D26120 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EC8CA49D271B127400D26120;
+					};
+				};
+			};
+			buildConfigurationList = EC8CA499271B127400D26120 /* Build configuration list for PBXProject "TruckAssignmentRemoteTech" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8CA495271B127400D26120;
+			productRefGroup = EC8CA49F271B127400D26120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8CA49D271B127400D26120 /* TruckAssignmentRemoteTech */,
+				EC8CA4B3271B128300D26120 /* TruckAssignmentRemoteTechTests */,
+				EC8CA4BE271B128300D26120 /* TruckAssignmentRemoteTechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8CA49C271B127400D26120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CA4AE271B128200D26120 /* LaunchScreen.storyboard in Resources */,
+				EC8CA4AB271B128200D26120 /* Assets.xcassets in Resources */,
+				EC8CA4A9271B127400D26120 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CA4B2271B128300D26120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CA4BD271B128300D26120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8CA49A271B127400D26120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CA4A6271B127400D26120 /* ViewController.swift in Sources */,
+				EC8CA4A2271B127400D26120 /* AppDelegate.swift in Sources */,
+				EC8CA4A4271B127400D26120 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CA4B0271B128300D26120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CA4B9271B128300D26120 /* TruckAssignmentRemoteTechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CA4BB271B128300D26120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CA4C4271B128300D26120 /* TruckAssignmentRemoteTechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8CA4B6271B128300D26120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8CA49D271B127400D26120 /* TruckAssignmentRemoteTech */;
+			targetProxy = EC8CA4B5271B128300D26120 /* PBXContainerItemProxy */;
+		};
+		EC8CA4C1271B128300D26120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8CA49D271B127400D26120 /* TruckAssignmentRemoteTech */;
+			targetProxy = EC8CA4C0271B128300D26120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8CA4A7271B127400D26120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8CA4A8271B127400D26120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8CA4AC271B128200D26120 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8CA4AD271B128200D26120 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8CA4C6271B128300D26120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC8CA4C7271B128300D26120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8CA4C9271B128300D26120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L54RXP7V9C;
+				INFOPLIST_FILE = TruckAssignmentRemoteTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TruckAssignmentRemoteTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8CA4CA271B128300D26120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L54RXP7V9C;
+				INFOPLIST_FILE = TruckAssignmentRemoteTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TruckAssignmentRemoteTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC8CA4CC271B128300D26120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L54RXP7V9C;
+				INFOPLIST_FILE = TruckAssignmentRemoteTechTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TruckAssignmentRemoteTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruckAssignmentRemoteTech.app/TruckAssignmentRemoteTech";
+			};
+			name = Debug;
+		};
+		EC8CA4CD271B128300D26120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L54RXP7V9C;
+				INFOPLIST_FILE = TruckAssignmentRemoteTechTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TruckAssignmentRemoteTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruckAssignmentRemoteTech.app/TruckAssignmentRemoteTech";
+			};
+			name = Release;
+		};
+		EC8CA4CF271B128300D26120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L54RXP7V9C;
+				INFOPLIST_FILE = TruckAssignmentRemoteTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TruckAssignmentRemoteTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TruckAssignmentRemoteTech;
+			};
+			name = Debug;
+		};
+		EC8CA4D0271B128300D26120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L54RXP7V9C;
+				INFOPLIST_FILE = TruckAssignmentRemoteTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TruckAssignmentRemoteTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TruckAssignmentRemoteTech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8CA499271B127400D26120 /* Build configuration list for PBXProject "TruckAssignmentRemoteTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8CA4C6271B128300D26120 /* Debug */,
+				EC8CA4C7271B128300D26120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8CA4C8271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8CA4C9271B128300D26120 /* Debug */,
+				EC8CA4CA271B128300D26120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8CA4CB271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8CA4CC271B128300D26120 /* Debug */,
+				EC8CA4CD271B128300D26120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8CA4CE271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8CA4CF271B128300D26120 /* Debug */,
+				EC8CA4D0271B128300D26120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8CA496271B127400D26120 /* Project object */;
+}
