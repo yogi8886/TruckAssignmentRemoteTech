@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5FA2A30FD056D7A189314C /* Pods_TruckAssignmentRemoteTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54FBAF26E14084450CADA22 /* Pods_TruckAssignmentRemoteTech.framework */; };
+		8B79D71F87FF623E420F2304 /* Pods_TruckAssignmentRemoteTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC46ADF840B0E0E376FEEB05 /* Pods_TruckAssignmentRemoteTechTests.framework */; };
+		D868345A1814ADBC408326E9 /* Pods_TruckAssignmentRemoteTech_TruckAssignmentRemoteTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B7581AF15BD84D62B1272E /* Pods_TruckAssignmentRemoteTech_TruckAssignmentRemoteTechUITests.framework */; };
+		EC33E3AE271BDAE600CF0225 /* TrucksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33E3AD271BDAE600CF0225 /* TrucksModel.swift */; };
+		EC33E3BF271BDD4F00CF0225 /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33E3BE271BDD4E00CF0225 /* ServiceHandler.swift */; };
+		EC33E3D6271D9F7400CF0225 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33E3D5271D9F7300CF0225 /* DateExtension.swift */; };
 		EC8CA4A2271B127400D26120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4A1271B127400D26120 /* AppDelegate.swift */; };
 		EC8CA4A4271B127400D26120 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4A3271B127400D26120 /* SceneDelegate.swift */; };
 		EC8CA4A6271B127400D26120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4A5271B127400D26120 /* ViewController.swift */; };
@@ -15,6 +21,8 @@
 		EC8CA4AE271B128200D26120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8CA4AC271B128200D26120 /* LaunchScreen.storyboard */; };
 		EC8CA4B9271B128300D26120 /* TruckAssignmentRemoteTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4B8271B128300D26120 /* TruckAssignmentRemoteTechTests.swift */; };
 		EC8CA4C4271B128300D26120 /* TruckAssignmentRemoteTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4C3271B128300D26120 /* TruckAssignmentRemoteTechUITests.swift */; };
+		EC8CA4D5271B14F900D26120 /* MapScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4D4271B14F900D26120 /* MapScreenViewController.swift */; };
+		EC8CA4DB271B234200D26120 /* TruckListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA4DA271B234200D26120 /* TruckListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09540271F7D272C59BDA9D7B /* Pods-TruckAssignmentRemoteTechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckAssignmentRemoteTechTests.debug.xcconfig"; path = "Target Support Files/Pods-TruckAssignmentRemoteTechTests/Pods-TruckAssignmentRemoteTechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C811322108C0BA8B7A36110 /* Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.debug.xcconfig"; path = "Target Support Files/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2DE4224BE467E69D96FA45 /* Pods-TruckAssignmentRemoteTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckAssignmentRemoteTech.debug.xcconfig"; path = "Target Support Files/Pods-TruckAssignmentRemoteTech/Pods-TruckAssignmentRemoteTech.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5B8CC5AD886A5CD931B183 /* Pods-TruckAssignmentRemoteTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckAssignmentRemoteTechTests.release.xcconfig"; path = "Target Support Files/Pods-TruckAssignmentRemoteTechTests/Pods-TruckAssignmentRemoteTechTests.release.xcconfig"; sourceTree = "<group>"; };
+		95B7581AF15BD84D62B1272E /* Pods_TruckAssignmentRemoteTech_TruckAssignmentRemoteTechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckAssignmentRemoteTech_TruckAssignmentRemoteTechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC46ADF840B0E0E376FEEB05 /* Pods_TruckAssignmentRemoteTechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckAssignmentRemoteTechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF34AD15DA1ECF6DC09866B /* Pods-TruckAssignmentRemoteTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckAssignmentRemoteTech.release.xcconfig"; path = "Target Support Files/Pods-TruckAssignmentRemoteTech/Pods-TruckAssignmentRemoteTech.release.xcconfig"; sourceTree = "<group>"; };
+		D54FBAF26E14084450CADA22 /* Pods_TruckAssignmentRemoteTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckAssignmentRemoteTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC83A8BD06FD428BE9EE81DB /* Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.release.xcconfig"; path = "Target Support Files/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC33E3AD271BDAE600CF0225 /* TrucksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksModel.swift; sourceTree = "<group>"; };
+		EC33E3BE271BDD4E00CF0225 /* ServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceHandler.swift; sourceTree = "<group>"; };
+		EC33E3D5271D9F7300CF0225 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		EC8CA49E271B127400D26120 /* TruckAssignmentRemoteTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckAssignmentRemoteTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8CA4A1271B127400D26120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8CA4A3271B127400D26120 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,8 @@
 		EC8CA4BF271B128300D26120 /* TruckAssignmentRemoteTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckAssignmentRemoteTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8CA4C3271B128300D26120 /* TruckAssignmentRemoteTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckAssignmentRemoteTechUITests.swift; sourceTree = "<group>"; };
 		EC8CA4C5271B128300D26120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8CA4D4271B14F900D26120 /* MapScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenViewController.swift; sourceTree = "<group>"; };
+		EC8CA4DA271B234200D26120 /* TruckListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5FA2A30FD056D7A189314C /* Pods_TruckAssignmentRemoteTech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B79D71F87FF623E420F2304 /* Pods_TruckAssignmentRemoteTechTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D868345A1814ADBC408326E9 /* Pods_TruckAssignmentRemoteTech_TruckAssignmentRemoteTechUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B4115F35E6DCEAD09D71884 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A2DE4224BE467E69D96FA45 /* Pods-TruckAssignmentRemoteTech.debug.xcconfig */,
+				CFF34AD15DA1ECF6DC09866B /* Pods-TruckAssignmentRemoteTech.release.xcconfig */,
+				1C811322108C0BA8B7A36110 /* Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.debug.xcconfig */,
+				DC83A8BD06FD428BE9EE81DB /* Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.release.xcconfig */,
+				09540271F7D272C59BDA9D7B /* Pods-TruckAssignmentRemoteTechTests.debug.xcconfig */,
+				4D5B8CC5AD886A5CD931B183 /* Pods-TruckAssignmentRemoteTechTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABB5BD686516371CDAECA466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D54FBAF26E14084450CADA22 /* Pods_TruckAssignmentRemoteTech.framework */,
+				95B7581AF15BD84D62B1272E /* Pods_TruckAssignmentRemoteTech_TruckAssignmentRemoteTechUITests.framework */,
+				CC46ADF840B0E0E376FEEB05 /* Pods_TruckAssignmentRemoteTechTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC33E3AC271BDAC000CF0225 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC33E3AD271BDAE600CF0225 /* TrucksModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EC8CA495271B127400D26120 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				EC8CA4B7271B128300D26120 /* TruckAssignmentRemoteTechTests */,
 				EC8CA4C2271B128300D26120 /* TruckAssignmentRemoteTechUITests */,
 				EC8CA49F271B127400D26120 /* Products */,
+				9B4115F35E6DCEAD09D71884 /* Pods */,
+				ABB5BD686516371CDAECA466 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +157,9 @@
 		EC8CA4A0271B127400D26120 /* TruckAssignmentRemoteTech */ = {
 			isa = PBXGroup;
 			children = (
+				EC33E3BE271BDD4E00CF0225 /* ServiceHandler.swift */,
+				EC33E3AC271BDAC000CF0225 /* Models */,
+				EC8CA4D9271B230B00D26120 /* TableViewCells */,
 				EC8CA4A1271B127400D26120 /* AppDelegate.swift */,
 				EC8CA4A3271B127400D26120 /* SceneDelegate.swift */,
 				EC8CA4A5271B127400D26120 /* ViewController.swift */,
@@ -106,6 +167,8 @@
 				EC8CA4AA271B128200D26120 /* Assets.xcassets */,
 				EC8CA4AC271B128200D26120 /* LaunchScreen.storyboard */,
 				EC8CA4AF271B128200D26120 /* Info.plist */,
+				EC8CA4D4271B14F900D26120 /* MapScreenViewController.swift */,
+				EC33E3D5271D9F7300CF0225 /* DateExtension.swift */,
 			);
 			path = TruckAssignmentRemoteTech;
 			sourceTree = "<group>";
@@ -128,6 +191,14 @@
 			path = TruckAssignmentRemoteTechUITests;
 			sourceTree = "<group>";
 		};
+		EC8CA4D9271B230B00D26120 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CA4DA271B234200D26120 /* TruckListTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC8CA4C8271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTech" */;
 			buildPhases = (
+				DD24F340A292C12CE3B91683 /* [CP] Check Pods Manifest.lock */,
 				EC8CA49A271B127400D26120 /* Sources */,
 				EC8CA49B271B127400D26120 /* Frameworks */,
 				EC8CA49C271B127400D26120 /* Resources */,
+				91A4F1D4FCC14FFCA41EB2B7 /* [CP] Copy Pods Resources */,
+				89186C6BCD5C04783581CCAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC8CA4CB271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTechTests" */;
 			buildPhases = (
+				A13E300B7B51F93C4658E589 /* [CP] Check Pods Manifest.lock */,
 				EC8CA4B0271B128300D26120 /* Sources */,
 				EC8CA4B1271B128300D26120 /* Frameworks */,
 				EC8CA4B2271B128300D26120 /* Resources */,
@@ -170,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC8CA4CE271B128300D26120 /* Build configuration list for PBXNativeTarget "TruckAssignmentRemoteTechUITests" */;
 			buildPhases = (
+				F7D0DEDEE8398409D3E23170 /* [CP] Check Pods Manifest.lock */,
 				EC8CA4BB271B128300D26120 /* Sources */,
 				EC8CA4BC271B128300D26120 /* Frameworks */,
 				EC8CA4BD271B128300D26120 /* Resources */,
+				00171A55D6ABFA297FD6436A /* [CP] Copy Pods Resources */,
+				07F31DD8C45702950130AFC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +331,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00171A55D6ABFA297FD6436A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07F31DD8C45702950130AFC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89186C6BCD5C04783581CCAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech/Pods-TruckAssignmentRemoteTech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech/Pods-TruckAssignmentRemoteTech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech/Pods-TruckAssignmentRemoteTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A4F1D4FCC14FFCA41EB2B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech/Pods-TruckAssignmentRemoteTech-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech/Pods-TruckAssignmentRemoteTech-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruckAssignmentRemoteTech/Pods-TruckAssignmentRemoteTech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13E300B7B51F93C4658E589 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruckAssignmentRemoteTechTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD24F340A292C12CE3B91683 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruckAssignmentRemoteTech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D0DEDEE8398409D3E23170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC8CA49A271B127400D26120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EC8CA4A6271B127400D26120 /* ViewController.swift in Sources */,
+				EC33E3D6271D9F7400CF0225 /* DateExtension.swift in Sources */,
+				EC33E3BF271BDD4F00CF0225 /* ServiceHandler.swift in Sources */,
+				EC8CA4D5271B14F900D26120 /* MapScreenViewController.swift in Sources */,
+				EC8CA4DB271B234200D26120 /* TruckListTableViewCell.swift in Sources */,
+				EC33E3AE271BDAE600CF0225 /* TrucksModel.swift in Sources */,
 				EC8CA4A2271B127400D26120 /* AppDelegate.swift in Sources */,
 				EC8CA4A4271B127400D26120 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +653,7 @@
 		};
 		EC8CA4C9271B128300D26120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2DE4224BE467E69D96FA45 /* Pods-TruckAssignmentRemoteTech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +673,7 @@
 		};
 		EC8CA4CA271B128300D26120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF34AD15DA1ECF6DC09866B /* Pods-TruckAssignmentRemoteTech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +693,7 @@
 		};
 		EC8CA4CC271B128300D26120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09540271F7D272C59BDA9D7B /* Pods-TruckAssignmentRemoteTechTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +716,7 @@
 		};
 		EC8CA4CD271B128300D26120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5B8CC5AD886A5CD931B183 /* Pods-TruckAssignmentRemoteTechTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +739,7 @@
 		};
 		EC8CA4CF271B128300D26120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C811322108C0BA8B7A36110 /* Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +760,7 @@
 		};
 		EC8CA4D0271B128300D26120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC83A8BD06FD428BE9EE81DB /* Pods-TruckAssignmentRemoteTech-TruckAssignmentRemoteTechUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
